@@ -1,0 +1,22 @@
+{
+	"name": "sumocoders/vtiger",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Toon Daelman",
+			"email": "spinnewebber_toon@hotmail.com",
+			"homepage": "http://turanct.wordpress.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"kriswallsmith/buzz": "dev-master"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"": "src"
+		}
+	}
+}
