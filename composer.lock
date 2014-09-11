@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce7e2fb5129aed178649d340be6fa9e6",
+    "hash": "a9e9f2a1d9cf8dc5357c023a5805fb47",
     "packages": [
         {
             "name": "kriswallsmith/buzz",
-            "version": "dev-master",
+            "version": "v0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "43c355e7eb8b644db00f31f69e1ab32ce15b167a"
+                "reference": "9d56d36a58c47e2f612f4b856ff9baa0e3375ff6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/43c355e7eb8b644db00f31f69e1ab32ce15b167a",
-                "reference": "43c355e7eb8b644db00f31f69e1ab32ce15b167a",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/9d56d36a58c47e2f612f4b856ff9baa0e3375ff6",
+                "reference": "9d56d36a58c47e2f612f4b856ff9baa0e3375ff6",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "curl",
                 "http client"
             ],
-            "time": "2014-08-11 18:42:16"
+            "time": "2014-07-29 23:52:21"
         }
     ],
     "packages-dev": [
@@ -62,9 +62,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "kriswallsmith/buzz": 20
-    },
+    "stability-flags": [
+
+    ],
     "prefer-stable": false,
     "platform": [
 

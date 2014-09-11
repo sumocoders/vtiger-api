@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"kriswallsmith/buzz": "dev-master"
+		"kriswallsmith/buzz": "0.12"
 	},
 	"minimum-stability": "dev",
 	"autoload": {
