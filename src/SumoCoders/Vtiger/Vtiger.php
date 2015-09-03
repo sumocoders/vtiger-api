@@ -266,7 +266,7 @@ class Vtiger
 
         $response = $this->request(
             'GET',
-            '/webservice.php?operation=query&sessionName=' . $this->getSession() . '&query=' . $query
+            '/webservice.php?operation=query&sessionName=' . $this->getSession() . '&query=' . urlencode($query)
         );
 
         return $response;
