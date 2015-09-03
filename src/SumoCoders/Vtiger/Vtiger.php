@@ -229,7 +229,7 @@ class Vtiger
     }
 
     /**
-     * Query the database [doesn't work]
+     * Query the database
      *
      * @param string $select The selected fields
      * @param string $from   The name of the entities we want
@@ -262,6 +262,7 @@ class Vtiger
 
             $query .= $limit;
         }
+        $query .= ';';
 
         $response = $this->request(
             'GET',
