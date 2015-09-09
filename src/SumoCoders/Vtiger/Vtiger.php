@@ -271,4 +271,21 @@ class Vtiger
 
         return $response;
     }
+    
+    
+    /**
+     * request information about a VTiger entity
+     *
+     * @param $entity
+     * @return array
+     */
+    public function describe($entity)
+    {
+        $response = $this->request(
+            'GET',
+            '/webservice.php?operation=describe&sessionName=' . $this->getSession() . '&elementType=' . urlencode($entity)
+        );
+
+        return $response;
+    }
 }
